@@ -3,3 +3,9 @@
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
+
+@media screen and (max-width: 726px) and (min-width: 425px) {
+    .country-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

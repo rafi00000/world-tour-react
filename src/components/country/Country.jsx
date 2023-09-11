@@ -5,9 +5,9 @@ const Country = ({ country }) => {
 
   const [visited, setVisited] = useState(false);
   return (
-    <div className={name.common === "Israel" ? "hidden" : "country"}>
-      <h2>Name: {name.common}</h2>
+    <div className={name.common === "Israel" ? "hidden" : "country font-mono space-y-3"}>
       <img src={flags.png} alt="" className="h-56" />
+      <h2 className="text-2xl font-bold">Name: {name.common}</h2>
       <p>Population: {population}</p>
       <p>Independent: {independent ? "Yes" : "no"}</p>
       <h3>{visited ? "Done" : "going"}</h3>

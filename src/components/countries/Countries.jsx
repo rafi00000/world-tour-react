@@ -3,7 +3,7 @@ import { useState } from "react";
 import Country from './../country/Country';
 import "./Countries.css"
 const Countries = () => {
-    // to set store the value of countries in api
+    // to set store the value of countries in api we are using useState() hook.....
     const [countries, SetCountries] = useState([]) ;
 
     // fetching the api data...
